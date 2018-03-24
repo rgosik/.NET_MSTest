@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shafts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:x="urn:Shaft">
+  <!-- Schema -->
+  <xsd:schema targetNamespace="urn:Shaft" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+    <xsd:element name="Shaft">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element type="xsd:int" name="Income1"/>
+          <xsd:element type="xsd:int" name="Income2"/>
+          <xsd:element type="xsd:int" name="ExpectedValue"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <!--End Schema-->
+  <x:Shaft>
+    <x:Income1>7</x:Income1>
+    <x:Income2>2</x:Income2>
+    <x:ExpectedValue>18</x:ExpectedValue>
+  </x:Shaft>
+  <x:Shaft>
+    <x:Income1>7</x:Income1>
+    <x:Income2>0</x:Income2>
+    <x:ExpectedValue>14</x:ExpectedValue>
+  </x:Shaft>
+  <x:Shaft>
+    <x:Income1>4</x:Income1>
+    <x:Income2>5</x:Income2>
+    <x:ExpectedValue>18</x:ExpectedValue>
+  </x:Shaft>
+</Shafts>

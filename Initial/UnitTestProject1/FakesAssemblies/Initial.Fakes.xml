@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Initial.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Initial.Fakes.ShimMine">
+            <summary>Shim type of Initial.Mine</summary>
+        </member>
+        <member name="M:Initial.Fakes.ShimMine.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Initial.Fakes.ShimMine.#ctor(Initial.Mine)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:Initial.Fakes.ShimMine.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.AllInstances.dajInt32">
+            <summary>Sets the shim of Mine.daj(Int32 y)</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.AllInstances.polonczString">
+            <summary>Sets the shim of Mine.poloncz(String dwa)</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.AllInstances.xGet">
+            <summary>Sets the shim of Mine.get_x()</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.AllInstances.xSetInt32">
+            <summary>Sets the shim of Mine.set_x(Int32 value)</summary>
+        </member>
+        <member name="M:Initial.Fakes.ShimMine.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Initial.Fakes.ShimMine.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.Constructor">
+            <summary>Sets the shim of Mine.Mine()</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.ConstructorIMineSample">
+            <summary>Sets the shim of Mine.Mine(IMineSample sample)</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.dajInt32">
+            <summary>Sets the shim of Mine.daj(Int32 y)</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.polonczString">
+            <summary>Sets the shim of Mine.poloncz(String dwa)</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.xGet">
+            <summary>Sets the shim of Mine.get_x()</summary>
+        </member>
+        <member name="P:Initial.Fakes.ShimMine.xSetInt32">
+            <summary>Sets the shim of Mine.set_x(Int32 value)</summary>
+        </member>
+        <member name="T:Initial.Fakes.StubIMineSample">
+            <summary>Stub type of Initial.IMineSample</summary>
+        </member>
+        <member name="M:Initial.Fakes.StubIMineSample.#ctor">
+            <summary>Initializes a new instance of type StubIMineSample</summary>
+        </member>
+        <member name="M:Initial.Fakes.StubIMineSample.Initial#IMineSample#quadraticEquation(System.Int32,System.Int32,System.Int32)">
+            <summary>Sets the stub of IMineSample.quadraticEquation(Int32 a, Int32 b, Int32 c)</summary>
+        </member>
+        <member name="F:Initial.Fakes.StubIMineSample.QuadraticEquationInt32Int32Int32">
+            <summary>Sets the stub of IMineSample.quadraticEquation(Int32 a, Int32 b, Int32 c)</summary>
+        </member>
+        <member name="T:Initial.Fakes.StubMine">
+            <summary>Stub type of Initial.Mine</summary>
+        </member>
+        <member name="M:Initial.Fakes.StubMine.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Initial.Fakes.StubMine.#ctor(Initial.IMineSample)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:Initial.Fakes.StubMine.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:Initial.Fakes.StubMine.InitializeStub">
+            <summary>Initializes a new instance of type StubMine</summary>
+        </member>
+        <member name="P:Initial.Fakes.StubMine.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Initial.Fakes.StubMine.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,7 @@
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\b\Initial\bin\Debug\Data\Data.xml
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\b\Initial\bin\Debug\Initial.exe.config
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\b\Initial\bin\Debug\Initial.exe
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\b\Initial\bin\Debug\Initial.pdb
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\i\Initial\Debug\Initial.csproj.CoreCompileInputs.cache
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\i\Initial\Debug\Initial.exe
+C:\Users\rgosik\source\repos\Initial\.vs\Initial\lut\0\i\Initial\Debug\Initial.pdb

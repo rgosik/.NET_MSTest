@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shafts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:x="urn:Shaft">
+  <x:Shaft>
+    <x:Value1>3</x:Value1>
+    <x:Value2>2</x:Value2>
+    <x:ExpectedValue>6</x:ExpectedValue>
+    <x:Message>2 is less than 3</x:Message>
+  </x:Shaft>
+  <x:Shaft>
+    <x:Value1>3</x:Value1>
+    <x:Value2>0</x:Value2>
+    <x:ExpectedValue>0</x:ExpectedValue>
+    <x:Message>-1 less than 0</x:Message>
+  </x:Shaft>
+  <x:Shaft>
+    <x:Value1>10</x:Value1>
+    <x:Value2>5</x:Value2>
+    <x:ExpectedValue>50</x:ExpectedValue>
+    <x:Message>5 is less than 10</x:Message>
+  </x:Shaft>
+</Shafts>

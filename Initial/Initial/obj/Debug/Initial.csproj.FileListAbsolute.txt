@@ -1,0 +1,14 @@
+C:\Users\rgosik\source\repos\Initial\Initial\bin\Debug\Initial.exe.config
+C:\Users\rgosik\source\repos\Initial\Initial\bin\Debug\Initial.exe
+C:\Users\rgosik\source\repos\Initial\Initial\bin\Debug\Initial.pdb
+C:\Users\rgosik\source\repos\Initial\Initial\obj\Debug\Initial.csproj.CoreCompileInputs.cache
+C:\Users\rgosik\source\repos\Initial\Initial\obj\Debug\Initial.exe
+C:\Users\rgosik\source\repos\Initial\Initial\obj\Debug\Initial.pdb
+C:\Users\rgosik\source\repos\Initial\Initial\bin\Debug\Data\Data.xml
+C:\Users\Michał\source\repos\Initial\Initial\bin\Debug\Data\Data.xml
+C:\Users\Michał\source\repos\Initial\Initial\bin\Debug\Initial.exe.config
+C:\Users\Michał\source\repos\Initial\Initial\bin\Debug\Initial.exe
+C:\Users\Michał\source\repos\Initial\Initial\bin\Debug\Initial.pdb
+C:\Users\Michał\source\repos\Initial\Initial\obj\Debug\Initial.csproj.CoreCompileInputs.cache
+C:\Users\Michał\source\repos\Initial\Initial\obj\Debug\Initial.exe
+C:\Users\Michał\source\repos\Initial\Initial\obj\Debug\Initial.pdb

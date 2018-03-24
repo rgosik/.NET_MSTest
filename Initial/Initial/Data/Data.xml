@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Shafts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:x="urn:Shaft">
+  <!-- Schema -->
+  <xsd:schema targetNamespace="urn:Shaft" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+    <xsd:element name="Shaft">
+      <xsd:complexType>
+        <xsd:sequence>
+          <xsd:element type="xsd:int" name="Value1"/>
+          <xsd:element type="xsd:int" name="Value2"/>
+          <xsd:element type="xsd:int" name="ExpectedValue"/>
+          <xsd:element type="xsd:string" name="Message"/>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <!--End Schema-->
+  <x:Shaft>
+    <x:Value1>7</x:Value1>
+    <x:Value2>2</x:Value2>
+    <x:ExpectedValue>2</x:ExpectedValue>
+    <x:Message>2 is less than 3</x:Message>
+  </x:Shaft>
+  <x:Shaft>
+    <x:Value1>7</x:Value1>
+    <x:Value2>0</x:Value2>
+    <x:ExpectedValue>-1</x:ExpectedValue>
+    <x:Message>-1 less than 0</x:Message>
+  </x:Shaft>
+  <x:Shaft>
+    <x:Value1>4</x:Value1>
+    <x:Value2>5</x:Value2>
+    <x:ExpectedValue>5</x:ExpectedValue>
+    <x:Message>5 is less than 10</x:Message>
+  </x:Shaft>
+</Shafts>
